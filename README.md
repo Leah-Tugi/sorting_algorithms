@@ -1,6 +1,6 @@
 # Sorting algorithms
 
-Project done during **Software Engineering studies** at **ALX School**. It aims to learn about sorting algorithms (bubble sort, insertion sort, selection sort, quick sort and so on) and Big O Notation in **C language**.
+Project aims to learn about sorting algorithms (bubble sort, insertion sort, selection sort, quick sort and so on) and Big O Notation in **C language**.
 
 ## Technologies
 * C files are compiled using `gcc 9.3.0`
