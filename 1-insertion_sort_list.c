@@ -2,7 +2,6 @@
 
 /**
  * insertion_sort_list - function to sort a doubly linked list
- *		using insertion sort
  * @list: reference to head
  *
  * Return: void
