@@ -43,27 +43,12 @@ int hoare_partition(int *array, size_t size, int left, int right)
 			above++;
 		} while (array[above] < pivot);
 		do {
-			below--;
-		} while (array[below] > pivot);
-
-		if (above < below)
-		{
-			swap_ints(array + above, array + below);
-			print_array(array, size);
-		}
-	}
-
-	return (above);
-}
-
 /**
  * hoare_sort - Implementquicksort algorithm thru recursion.
  * @array: An array of ints to sort.
  * @size: The size of array.
  * @left: The starting index of array partition to order.
  * @right: The ending index of array partition to order.
- *
- * Description: Uses the Hoare partition scheme.
  */
 void hoare_sort(int *array, size_t size, int left, int right)
 {
@@ -81,8 +66,6 @@ void hoare_sort(int *array, size_t size, int left, int right)
  * quick_sort_hoare - Sort an array the quicksort algorithm.
  * @array: An array of integers.
  * @size: The size of the array.
- *
- * Description: Uses the Hoare partition schems.
  */
 void quick_sort_hoare(int *array, size_t size)
 {
