@@ -1,8 +1,7 @@
 #include "sort.h"
 
 /**
- * partition - lomuto partition function
- *
+ * partition - partition function
  * @array: array to be sorted
  * @size: size of array to be sorted
  * @low: low
@@ -45,8 +44,7 @@ size_t partition(int *array, ssize_t low, ssize_t high, size_t size)
 }
 
 /**
- * quicksort_recursion - function to sort an array using quick sort algorithm
- *		and the lomuto partition scheme
+ * quicksort_recursion - function to sort array using quick sort algorithm
  * @array: array to be sorted
  * @size: size of array to be sorted
  * @low: low

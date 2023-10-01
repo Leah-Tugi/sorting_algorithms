@@ -8,8 +8,8 @@
  * struct listint_s - Doubly linked list node
  *
  * @n: Integer stored in the node
- * @prev: Pointer to the previous element of the list
- * @next: Pointer to the next element of the list
+ * @prev: Pointer to previous element of the list
+ * @next: Pointer to next element of the list
  */
 typedef struct listint_s
 {
@@ -32,5 +32,8 @@ void heap_sort(int *array, size_t size);
 void radix_sort(int *array, size_t size);
 void bitonic_sort(int *array, size_t size);
 void quick_sort_hoare(int *array, size_t size);
-
+void merge_subarr(int *subarr, int *buff, size_t front, size_t mid,
+		size_t back);
+void merge_sort_recursive(int *subarr, int *buff, size_t front, size_t back);
+void merge_sort(int *array, size_t size);
 #endif

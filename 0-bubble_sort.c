@@ -1,13 +1,16 @@
 #include "sort.h"
 
 /**
- * bubble_sort - function that sorts an array
- * of integers in ascending order using the
- * Bubble sort algorithm
+ * bubble_sort - function sorts an array
+ * ints in ascending order using Bubble sort algorithm
  *
  * @array: input arrray
  * @size: size of the array
+<<<<<<< HEAD
  * Return: returns nothing
+=======
+ * Return: no given return
+>>>>>>> f4fa9956fc37ef0bbe754700aeae3941b5bc29c9
  */
 void bubble_sort(int *array, size_t size)
 {
